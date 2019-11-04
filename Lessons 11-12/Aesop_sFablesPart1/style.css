@@ -1,0 +1,52 @@
+/*
+    For each book, use the id to create a CSS rule to apply a filter
+    so that each book looks different 
+*/
+
+
+
+
+
+
+
+
+/* Put your styles ABOVE this line */
+/* Styles you don't need to worry about */
+div.book{
+    position:relative;
+    background-size:100% 100%;
+    height:200px;
+    width:100px;
+    background-image:url("https://codehs.com/uploads/5628239cdcacac83db59e6457ff542bb");
+}
+
+.text{
+    position: fixed;
+    text-align:left;
+    visibility:hidden; // hide the text for now
+    font-size:16px;
+}
+
+.bookcase{
+    border: 20px solid brown;
+    padding: 50px 20px;
+    width:90%;
+    text-align:center;
+    position:fixed;
+}
+
+ul{
+    list-style-type:none; // remove bullets
+}
+
+li{
+    display:inline-flex; // force list items to be in one line
+			 
+}
+body{
+    background-color: tan;
+}
+
+
+
+
